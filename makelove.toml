@@ -1,0 +1,9 @@
+name = "REPLACEME"
+default_targets = ["macos"]
+build_directory = "bin"
+love_version = "11.5"
+love_files = [
+    "+*",
+    "-*/.*",
+    "-./bin/*",
+]
